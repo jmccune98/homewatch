@@ -1,0 +1,129 @@
+﻿/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+
+nav {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/* Hero Section */
+.hero {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+
+.hero h1 {
+  font-size: 3em;
+}
+
+
+.hero p {
+  font-size: 1.2em;
+}
+
+
+.cta-btn {
+  background-color: #fff;
+  color: #4CAF50;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+/* Section Styles */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.service, .pricing-plan {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
